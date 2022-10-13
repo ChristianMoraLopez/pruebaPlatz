@@ -11,7 +11,10 @@
     font-size: 40px;
     border: 2px solid gray;
     border-radius: 10px;
-    margin: 0px 40% 0px ;
+    margin: 0px 40% 0px;
+    -webkit-box-shadow: 28px 20px 42px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 28px 20px 42px -9px rgba(0,0,0,0.75);
+    box-shadow: 28px 20px 42px -9px rgba(0,0,0,0.75);
 }
 .parrafo1
 {
