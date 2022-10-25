@@ -1,0 +1,60 @@
+*
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#encabezado p
+{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 0px 40% 0px;
+    -webkit-box-shadow: 28px 20px 42px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: 28px 20px 42px -9px rgba(0,0,0,0.75);
+    box-shadow: 28px 20px 42px -9px rgba(0,0,0,0.75);
+}
+.parrafo1
+{   
+
+    text-align: center;
+    font-size: 24px;
+    background-color: beige;
+
+}
+
+.listaGit 
+{ 
+    color: #333;
+    background-color: blanchedalmond;
+    font-size: 24px;
+    border: 2px solid gray;
+    border-radius: 30px;
+}
+.listaGit div:nth-child(2)
+{ 
+   margin: 80px;
+}
+.listaGit p:nth-child(1)
+{ 
+   margin: 16px;
+   font-size: 32px;
+   font-weight: bold;
+}
+
+.loremI p
+{
+    text-align: justify;
+    font-weight: bold;
+    margin: 50px;
+    font-size: 20px;
+}
+.loremI 
+{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px;
+    font-size: 50px;
+}
