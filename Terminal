@@ -1,0 +1,16 @@
+// usuario ingrasa año y programa determina siglo
+import java.util.Scanner;
+public class siglo
+{   
+    public static void main(String[] args)
+    {
+        Scanner input = new Scanner(System.in);
+        int año;
+        System.out.print("Ingrese año: ");
+        año = input.nextInt();
+        if (año % 100 == 0)
+            System.out.printf("El siglo es: %d", año / 100);
+        else
+            System.out.printf("El siglo es: %d", año / 100 + 1);
+    }
+}
