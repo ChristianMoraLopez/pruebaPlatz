@@ -4,9 +4,13 @@
 }
 
 #encabezado p
-{
+{   
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 360px;
+    -webkit-animation-delay: 800ms;
     text-align: center;
-    justify-content: center;
     font-weight: bold;
     font-size: 40px;
     border: 2px solid gray;
@@ -15,6 +19,19 @@
     -webkit-box-shadow: 28px 20px 42px -9px rgba(0,0,0,0.75);
     -moz-box-shadow: 28px 20px 42px -9px rgba(0,0,0,0.75);
     box-shadow: 28px 20px 42px -9px rgba(0,0,0,0.75);
+}
+
+#encabezado
+{
+    margin-bottom: 64px;
+}
+
+#encabezado p img
+{   display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 .parrafo1
 {   
